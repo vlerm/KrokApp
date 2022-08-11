@@ -7,23 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06B4056B1065AEE218D58FC2 /* Pods_KrokApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDEDC34723DCDA7B55E92414 /* Pods_KrokApp.framework */; };
 		4F81AECC28971F0F000FF1FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F81AECB28971F0F000FF1FC /* AppDelegate.swift */; };
 		4F81AECE28971F0F000FF1FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F81AECD28971F0F000FF1FC /* SceneDelegate.swift */; };
-		4F81AED028971F0F000FF1FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F81AECF28971F0F000FF1FC /* ViewController.swift */; };
+		4F81AED028971F0F000FF1FC /* CitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F81AECF28971F0F000FF1FC /* CitiesViewController.swift */; };
 		4F81AED328971F0F000FF1FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F81AED128971F0F000FF1FC /* Main.storyboard */; };
 		4F81AED528971F12000FF1FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F81AED428971F12000FF1FC /* Assets.xcassets */; };
 		4F81AED828971F12000FF1FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F81AED628971F12000FF1FC /* LaunchScreen.storyboard */; };
+		4F81AEE0289782EF000FF1FC /* AttractionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F81AEDF289782EF000FF1FC /* AttractionsViewController.swift */; };
+		4F81AEE22897856D000FF1FC /* CitiesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F81AEE12897856C000FF1FC /* CitiesTableViewCell.swift */; };
+		4F81AEE628979633000FF1FC /* AttractionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F81AEE528979633000FF1FC /* AttractionsTableViewCell.swift */; };
+		4FA5ACE528984ACE00B01EEE /* DetailAttractionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA5ACE428984ACE00B01EEE /* DetailAttractionViewController.swift */; };
+		4FA5ACEB2898B89D00B01EEE /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA5ACEA2898B89D00B01EEE /* City.swift */; };
+		4FA5ACED2898B8D600B01EEE /* Attraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA5ACEC2898B8D600B01EEE /* Attraction.swift */; };
+		4FA5ACEF2898BDDB00B01EEE /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA5ACEE2898BDDB00B01EEE /* SettingsViewController.swift */; };
+		4FA5ACF12898BFED00B01EEE /* Utilities+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA5ACF02898BFED00B01EEE /* Utilities+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4F81AEC828971F0F000FF1FC /* KrokApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KrokApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F81AECB28971F0F000FF1FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F81AECD28971F0F000FF1FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4F81AECF28971F0F000FF1FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4F81AECF28971F0F000FF1FC /* CitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesViewController.swift; sourceTree = "<group>"; };
 		4F81AED228971F0F000FF1FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4F81AED428971F12000FF1FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F81AED728971F12000FF1FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F81AED928971F12000FF1FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F81AEDF289782EF000FF1FC /* AttractionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttractionsViewController.swift; sourceTree = "<group>"; };
+		4F81AEE12897856C000FF1FC /* CitiesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesTableViewCell.swift; sourceTree = "<group>"; };
+		4F81AEE528979633000FF1FC /* AttractionsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttractionsTableViewCell.swift; sourceTree = "<group>"; };
+		4FA5ACE428984ACE00B01EEE /* DetailAttractionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailAttractionViewController.swift; sourceTree = "<group>"; };
+		4FA5ACEA2898B89D00B01EEE /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		4FA5ACEC2898B8D600B01EEE /* Attraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attraction.swift; sourceTree = "<group>"; };
+		4FA5ACEE2898BDDB00B01EEE /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		4FA5ACF02898BFED00B01EEE /* Utilities+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Utilities+Extensions.swift"; sourceTree = "<group>"; };
+		63FA551BA94EBC45A2C226BD /* Pods-KrokApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KrokApp.release.xcconfig"; path = "Target Support Files/Pods-KrokApp/Pods-KrokApp.release.xcconfig"; sourceTree = "<group>"; };
+		CBC5850C50E64F03768B4A93 /* Pods-KrokApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KrokApp.debug.xcconfig"; path = "Target Support Files/Pods-KrokApp/Pods-KrokApp.debug.xcconfig"; sourceTree = "<group>"; };
+		DDEDC34723DCDA7B55E92414 /* Pods_KrokApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KrokApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06B4056B1065AEE218D58FC2 /* Pods_KrokApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +63,8 @@
 			children = (
 				4F81AECA28971F0F000FF1FC /* KrokApp */,
 				4F81AEC928971F0F000FF1FC /* Products */,
+				699AD67CD976E9FEB5B591D8 /* Pods */,
+				FEE4210524380F902E889DE2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +81,38 @@
 			children = (
 				4F81AECB28971F0F000FF1FC /* AppDelegate.swift */,
 				4F81AECD28971F0F000FF1FC /* SceneDelegate.swift */,
-				4F81AECF28971F0F000FF1FC /* ViewController.swift */,
+				4FA5ACEE2898BDDB00B01EEE /* SettingsViewController.swift */,
+				4F81AECF28971F0F000FF1FC /* CitiesViewController.swift */,
+				4F81AEDF289782EF000FF1FC /* AttractionsViewController.swift */,
+				4FA5ACE428984ACE00B01EEE /* DetailAttractionViewController.swift */,
+				4F81AEE528979633000FF1FC /* AttractionsTableViewCell.swift */,
+				4F81AEE12897856C000FF1FC /* CitiesTableViewCell.swift */,
+				4FA5ACF02898BFED00B01EEE /* Utilities+Extensions.swift */,
+				4FA5ACEA2898B89D00B01EEE /* City.swift */,
+				4FA5ACEC2898B8D600B01EEE /* Attraction.swift */,
 				4F81AED128971F0F000FF1FC /* Main.storyboard */,
-				4F81AED428971F12000FF1FC /* Assets.xcassets */,
 				4F81AED628971F12000FF1FC /* LaunchScreen.storyboard */,
 				4F81AED928971F12000FF1FC /* Info.plist */,
+				4F81AED428971F12000FF1FC /* Assets.xcassets */,
 			);
 			path = KrokApp;
+			sourceTree = "<group>";
+		};
+		699AD67CD976E9FEB5B591D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CBC5850C50E64F03768B4A93 /* Pods-KrokApp.debug.xcconfig */,
+				63FA551BA94EBC45A2C226BD /* Pods-KrokApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FEE4210524380F902E889DE2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDEDC34723DCDA7B55E92414 /* Pods_KrokApp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +122,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4F81AEDC28971F12000FF1FC /* Build configuration list for PBXNativeTarget "KrokApp" */;
 			buildPhases = (
+				DD80BEC4628E332DDBC3643F /* [CP] Check Pods Manifest.lock */,
 				4F81AEC428971F0F000FF1FC /* Sources */,
 				4F81AEC528971F0F000FF1FC /* Frameworks */,
 				4F81AEC628971F0F000FF1FC /* Resources */,
+				DF0BC4C453D45E50EDEA91A2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +183,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		DD80BEC4628E332DDBC3643F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KrokApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF0BC4C453D45E50EDEA91A2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KrokApp/Pods-KrokApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KrokApp/Pods-KrokApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KrokApp/Pods-KrokApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4F81AEC428971F0F000FF1FC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F81AED028971F0F000FF1FC /* ViewController.swift in Sources */,
+				4FA5ACE528984ACE00B01EEE /* DetailAttractionViewController.swift in Sources */,
+				4F81AEE22897856D000FF1FC /* CitiesTableViewCell.swift in Sources */,
+				4FA5ACF12898BFED00B01EEE /* Utilities+Extensions.swift in Sources */,
+				4F81AED028971F0F000FF1FC /* CitiesViewController.swift in Sources */,
+				4FA5ACEF2898BDDB00B01EEE /* SettingsViewController.swift in Sources */,
 				4F81AECC28971F0F000FF1FC /* AppDelegate.swift in Sources */,
+				4FA5ACED2898B8D600B01EEE /* Attraction.swift in Sources */,
 				4F81AECE28971F0F000FF1FC /* SceneDelegate.swift in Sources */,
+				4F81AEE0289782EF000FF1FC /* AttractionsViewController.swift in Sources */,
+				4FA5ACEB2898B89D00B01EEE /* City.swift in Sources */,
+				4F81AEE628979633000FF1FC /* AttractionsTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +384,7 @@
 		};
 		4F81AEDD28971F12000FF1FC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBC5850C50E64F03768B4A93 /* Pods-KrokApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -311,6 +412,7 @@
 		};
 		4F81AEDE28971F12000FF1FC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63FA551BA94EBC45A2C226BD /* Pods-KrokApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
